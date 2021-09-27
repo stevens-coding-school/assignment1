@@ -1,24 +1,14 @@
 {
   "tests": [
     {
-      "name": "Secure Channel Tests",
-      "setup": "HOME=/tmp mix do local.rebar --force, local.hex --force, deps.get",
-      "run": "HOME=/tmp mix test test/spy_radio/01_secure_channel_test.exs",
+      "name": "Test Suite",
+      "setup": "bundle",
+      "run": "rspec",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 50
-    },
-    {
-      "name": "Headquarters Test",
-      "setup": "HOME=/tmp mix do local.rebar --force, local.hex --force, deps.get",
-      "run": "HOME=/tmp mix test test/spy_radio/02_headquarters_test.exs",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 50
+      "points": 100
     }
   ]
 }
