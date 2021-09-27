@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Test Suite",
-      "setup": "bundle",
+      "setup": "bundle update --bundler && bundle",
       "run": "rspec",
       "input": "",
       "output": "",
