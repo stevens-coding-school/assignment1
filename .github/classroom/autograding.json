@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Test Suite",
-      "setup": "bundle update --bundler && bundle",
+      "setup": "gem install bundler && bundle",
       "run": "rspec",
       "input": "",
       "output": "",
